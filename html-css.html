@@ -66,6 +66,10 @@
             --hibiscus-dark: hsl(336,40%,50%);
             --gold-light: hsl(46,50,40);
         }
+         
+        th,td {
+            border: 10px solid pink;
+        }
     </style>
 </head>
 <body>
@@ -130,6 +134,70 @@
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Send</button>
         </form>
+        <table>
+            <tr>
+                <th>WINES</th>
+                <th>JUICES</th>
+                <th>JAM</th>
+            </tr>
+
+            <tr>
+                <td colspan="2">Sweet</td>
+                
+                <td>sugarly</td>
+            </tr>
+            <tr>
+                <td colspan="2">dry</td>
+                
+                <td>ginger</td>
+            </tr>
+            
+            <tr>
+                <td>soft</td>
+                <td>mocktail</td>
+                <td>vanilla</td>
+            </tr>
+        </table>
+        <center>
+
+            <fieldset>
+        <h2><legend>Forms in julis hibiscus</legend></h2>
+
+        <input type="text" name="username" placeholder="enter ur username">
+        <br><br>
+        <input type="email" name="useremail" placeholder="enter email">
+        <br><br>
+        <input type="password" name="usepassword" placeholder="enter password">
+        <br><br>
+        <br><br>
+        <textarea name="details" placeholder="enter detail"></textarea>
+        <h2> wine juice or jam</h2>
+        <input type="radio" name="drinks" value="Wine">wine
+        <br>
+        <input type="radio" name="drinks" value="juice">juice
+        <br>
+        <input type="radio" name="drinks" value="jam">jam
+        <br><br>
+        <input type="submit" name="submit">
+            </fieldset>
+        </center>
+
+        <fieldset>
+    select your D.O.B: <input name="date" name="date of birth">
+    <br><br>
+    <input type="file" name="document">
+    <input type="color" name="color">
+    <select>
+        <option>wine</option>
+        <option>juice</option>
+        <option>jam</option>
+    </select>
+    <h3>how many do u like to order</h3>
+    <input type="number" name="quantity" min="1" max="10">
+    <br><br>
+    <input type="range" name="range" min="1" max="10">
+        </fieldset>
+
     </section>
 
     <footer>
