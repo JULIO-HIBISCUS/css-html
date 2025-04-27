@@ -1,0 +1,133 @@
+
+body{
+    background: radial-gradient(
+circle,  /* Direction of the gradient */
+rgba(199, 8, 103, 0.815),  /* Red with 50% transparency */
+rgba(235, 198, 198, 0.795)   /* Blue with 50% transparency */
+);
+    
+    color:rgb(63, 12, 204);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+header {
+    background: #0e7441;
+    color: rgb(230, 23, 143);
+    padding: 0px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border-style: double;
+    transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin:0px;
+
+}
+header:hover{
+    color:rgb(76, 224, 30);
+}
+h1{
+    
+    weight:bold;
+
+    border-color: rgb(13, 137, 238);
+    margin-bottom: 10px;
+    width:900px;
+    text-align:center;
+    
+
+}
+h2{
+    font-style: italic;
+    color:rgb(226, 129, 18);
+}
+nav{
+    
+    display:inline-block;
+   
+}
+
+nav.hover{
+    color:rgb(141, 240, 12);
+}
+p{
+    color:rgb(15, 190, 182);
+    text-align: justify;
+    word-spacing: 5px;
+}
+.a1{
+    border:2px solid rgb(176, 230, 27);
+    display:inline-block;
+    text-decoration:none;
+    margin-top: 50px;
+    margin-bottom:50px;
+    
+    padding:10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 45px;
+    transition:0.3s;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(67, 21, 233);
+}
+
+.a1:hover{
+    color: white;
+    
+}
+.div2{
+    align-content:first baseline;
+    background-color:rgb(38, 119, 65);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 245px;
+    width:950px;
+    padding-left:300px;
+    padding-right: 700px;
+    margin-right:7px;
+    margin-left:70px;
+
+}
+
+.div3{
+    color:whitesmoke;
+    background-color: rgb(207, 134, 230);
+    height:580px;
+    width:400px;
+    padding:10px;
+    margin-right:1108px;
+    margin-left: 70px;
+    margin-top: -2px;
+    margin-bottom: 100px;
+    border-bottom-right-radius:40px;
+    
+}
+.div4{
+    color:whitesmoke;
+    background-color: rgb(207, 134, 230);
+    height:580px;
+    width:400px;
+    padding:10px;
+    margin-left:80px;
+    margin-top:-700px;
+    border-bottom-right-radius:40px;
+    
+}
+.div5{
+    background-color: whitesmoke;
+    height:400px;
+    width:400px
+    
+}
+.p2{
+    color:whitesmoke;
+}
+.p1{
+    color:black;
+}
+.p3{
+    color:black;
+}
+.image1{
+    align-items: center;
+    justify-content: center;
+}
+
