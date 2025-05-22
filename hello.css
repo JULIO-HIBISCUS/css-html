@@ -15,9 +15,9 @@ header {
     background: #0e7441;
     color: rgb(230, 23, 143);
     padding: 0px ;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-size: medium;
-    border-style: double;
+    border-style: ridge;
     transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
     margin:0px;
 
@@ -26,9 +26,7 @@ header:hover{
     color:rgb(76, 224, 30);
 }
 h1{
-    
     weight:bold;
-
     border-color: rgb(13, 137, 238);
     margin-bottom: 10px;
     width:900px;
@@ -37,8 +35,9 @@ h1{
 
 }
 h2{
+    text-shadow: 3px 3px lightgreen,2px 2px 2px red,2px 2px 2px blue;
     font-style: italic;
-    color:rgb(226, 129, 18);
+    color:rgb(223, 43, 11);
 }
 .navbar{
     
@@ -46,6 +45,7 @@ h2{
     background-color: rgb(85, 31, 7);
     padding:1rem;
     height:30px;
+    justify-content:center ;
    
 }
 .nav-links{
@@ -90,7 +90,7 @@ p{
 .div2{
     align-content:first baseline;
     background-color:rgb(38, 119, 65);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:"Brush Script MT", cursive;
     height: 245px;
     width:950px;
     padding-left:300px;
@@ -118,6 +118,8 @@ p{
     background-repeat: no-repeat;
     overflow: hidden;
     position:relative;
+    backdrop-filter:blur(25px);
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.1);
 }
 .div4{
     color:whitesmoke;
@@ -128,17 +130,16 @@ p{
     margin-left:80px;
     margin-top:-700px;
     border-bottom-right-radius:40px;
-    
-    
-}
-
-.div4 {
+    backdrop-filter:blur(25px);
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.1);
     background-image: url('.vscode/wine2.jpg');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
     position:relative;
+    backdrop-filter:blur(25px);
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.1);
 
 }
 
