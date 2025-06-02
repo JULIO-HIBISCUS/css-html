@@ -7,10 +7,19 @@
     <link rel="stylesheet" type="text/css" href="styles/stylez.css">
     <style>
         body {
-            font-family: Arial, serif, sans-serif;
+            font-family:  "Verdana, sans-serif";
+            font-size: 15px;
             margin: 2.1;
-            padding: 2;
+            padding: 0;
             background-color: #f1c7c7;
+            color:darkblue;
+            word-spacing: 5px;
+            
+        }
+        h2 {
+            font-family: Georgia, serif;
+            color:black;
+            text-align: left;
         }
 
         header {
@@ -34,14 +43,45 @@
             color: white;
             text-decoration: none;
         }
+        nav :link{
+            color:aqua;
+        }
+        nav :visited{
+            color:rgb(11, 247, 117)
+        }
+        nav :hover {
+            color:rgb(230, 5, 238);
+            font-size: 20px;
+        }
+        nav :active {
+            color: #000;
+        }
         
         .img1 {
+            display: block;
             position:absolute;
-            z-index: 1;
+            z-index: 2;
+            opacity: 0.2;
+            top: 200px;
+            margin-left: -10%;
+            margin-right:100%;
+            width:100%;
+            padding-left:80px;
+    
+            
+        }
+        .img2 {
+            display: block;
+            position:absolute;
+            z-index: 2;
             opacity: 0.3;
             top: 200px;
-            left: 400px;
-            right: 500px;
+            margin-left: 0%;
+            margin-right:50%;
+            float:right;
+            width: 960px;
+            height: 500px;
+
         }
         section {
             padding: 20px;
@@ -99,14 +139,15 @@
     </header>
     <center>
     <section id="about">
-        <h2>About Us</h2>
-        <p>Welcome to Juli's Hibiscus! Born from a passion for the vibrant flavors and health benefits of hibiscus,<br> our journey began with a simple idea: to create delicious, natural beverages that celebrate this beautiful flower.
+        <h1>About Us</h1>
+        <h2><p><strong><i>Welcome to Juli's Hibiscus! Born from a passion for the vibrant flavors and health benefits of hibiscus,<br> our journey began with a simple idea: to create delicious, natural beverages that celebrate this beautiful flower.
         <p>Each bottle of our hibiscus juice and wine is crafted with love, using only the finest ingredients sourced from local farms.</p>
         <p>Our mission is to bring the refreshing taste of hibiscus to your table while promoting sustainability and community</p>
         <p>We specialize in creating delicious and healthy roselle juice and wines. Our products are made from the finest ingredients, ensuring quality and taste in every sip.</p>
         <p>Hibiscus is the best health drink you should be drinking everyday. </p>
-        <p>We are located in uganda mukono along jinja road</p>
-        <img class="img1" src="https://d4804za1f1gw.cloudfront.net/wp-content/uploads/sites/6/2022/02/GettyImages-806236716-roselle-hibiscus-seed-library-image-of-hibiscus-tea-rectangle.jpg" width="900" height="400px">
+        <p>We are located in uganda mukono along jinja road</i></strong></p></h2>
+        <img class="img1" src="red juli's juice.JPG" width="600" height="400px">
+       
     </section>
     </center>
     <section id="products">
@@ -129,6 +170,7 @@
             <h4> Suggestions: “Perfect with grilled meats, spicy dishes, or enjoyed on its own.”</h4>
         <center>
             <img class="img2" src="https://www.riojamurilloviteri.com/wp-content/uploads/2021/09/toast-origin-2.jpg" width="320"alt="Hibiscus Flower">
+           
         </center>
         </div>
     </section>
